@@ -107,7 +107,7 @@ def serverStatus():
 	})
 
 
-# Main bancho server
+# Main bancho servers
 @app.route("/", methods=['GET', 'POST'])
 def banchoServer():
 	if flask.request.method == 'POST':
